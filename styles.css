@@ -1,0 +1,31 @@
+.centered-heading {
+
+    text-align: center;
+    background-color: rgb(129, 6, 6); 
+    color: white;
+    height: 60px;
+}
+
+.button {
+    
+    text-align: center;
+    height: 64px;
+    width: 128px;
+    border: 1px;
+    border-color: black;
+    background-color: gray;
+    margin: 20px;
+}
+
+.menu .button {
+    display: inline;
+}
+
+.main-container {
+    width: 683px;
+    margin: auto;
+}
+
+img {
+    border-radius: 20px;
+}
