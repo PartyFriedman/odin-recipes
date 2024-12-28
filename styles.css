@@ -1,31 +1,69 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+
 .centered-heading {
 
+    padding: 48px;
     text-align: center;
-    background-color: rgb(129, 6, 6); 
-    color: white;
-    height: 60px;
-}
-
-.button {
-    
-    text-align: center;
-    height: 64px;
-    width: 128px;
-    border: 1px;
-    border-color: black;
-    background-color: gray;
-    margin: 20px;
-}
-
-.menu .button {
-    display: inline;
-}
-
-.main-container {
-    width: 683px;
-    margin: auto;
-}
-
-img {
+    background-color: rgb(226, 226, 226);
     border-radius: 20px;
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+    color:rgb(44, 43, 41);
 }
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+}
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.card-container {
+    width: 240px; /* Bredden på kortet */
+    margin: 11px; /* Avstand mellom kortene */
+    border: 1px solid #ccc; /* Lett kantlinje rundt kortet */
+    border-radius: 8px; /* Runde hjørner på kortet */
+    overflow: hidden; /* Hindrer innholdet i å gå utenfor kortet */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Gir kortet en skygge for dybde */
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.card-title {
+    padding: 12px;
+    font-size: 24px;
+}
+.card-image {
+    width: 220px;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+
+.card-description {
+    text-align: left;
+    margin: 12px;
+    
+}
+
+.cat {
+    text-align: center;
+    padding: 10px 40px;
+    margin:  0 auto;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
